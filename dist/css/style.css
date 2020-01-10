@@ -9,12 +9,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(21, 98, 144);
 }
 
 .slider {
   width: 50vw;
   height: auto;
   position: relative;
+  overflow: hidden;
+  border: 5px solid white;
 }
 
 .slider__content {
@@ -27,6 +30,8 @@ body {
 
 .slider__prev-button,
 .slider__next-button {
+  position: absolute;
+  top: 50%;
   font-size: 50px;
   color: white;
   background-color: transparent;
@@ -36,13 +41,9 @@ body {
 }
 
 .slider__prev-button {
-  position: absolute;
-  top: 50%;
   left: 5%;
 }
 
 .slider__next-button {
-  position: absolute;
-  top: 50%;
   right: 5%;
 }
