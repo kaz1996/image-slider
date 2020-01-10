@@ -11,6 +11,7 @@
   "license": "ISC",
   "homepage": "https://kaz1996.github.io/image-slider",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
     "gh-pages": "^2.2.0"
   }
 }

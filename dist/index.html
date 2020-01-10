@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/all.css">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Image Slider</title>
 </head>
 <body>
   <div class="slider">
-    <img src="./img/frank-mckenna.jpg" alt="sunset picture" class="slider__image">
-    <img src="./img/jay-mantri.jpg" alt="forest picture" class="slider__image">
-    <img src="./img/philippe-toupet.jpg" alt="lake picture" class="slider__image">
-    <img src="./img/tim-swaan.jpg" alt="bridge picture" class="slider__image">
-    <img src="./img/v2osk.jpg" alt="moutain picture" class="slider__image">
+    <div class="slider__content">
+      <img src="./img/frank-mckenna.jpg" alt="sunset picture" class="slider__image">
+      <img src="./img/jay-mantri.jpg" alt="forest picture" class="slider__image">
+      <img src="./img/philippe-toupet.jpg" alt="lake picture" class="slider__image">
+      <img src="./img/tim-swaan.jpg" alt="bridge picture" class="slider__image">
+      <img src="./img/v2osk.jpg" alt="moutain picture" class="slider__image">
+    </div>
+    <button class="slider__prev-button" id="js-prev"><i class="fas fa-arrow-left"></i></button>
+    <button class="slider__next-button" id="js-next"><i class="fas fa-arrow-right"></i></button>
   </div>
 </body>
 </html>
